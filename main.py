@@ -5,7 +5,6 @@ from langchain_openai import ChatOpenAI
 import os
 from dotenv import load_dotenv
 from file_io import saveMarkdownFile
-from langchain_aws import BedrockLLM
 
 load_dotenv()
 
